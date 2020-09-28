@@ -7,6 +7,5 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
-  commands:
-  - echo hello world
+- name: run build script
+  commands: ["/bin/bash", "build.sh"]
